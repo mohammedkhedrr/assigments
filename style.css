@@ -1,54 +1,57 @@
 body{
-    font-family: Arial, sans-serif;
-                background: #09c;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                margin: 0;
-            }
-    
-            .form-container {
-                background: #fff;
-                padding: 30px 40px;
-                border-radius: 12px;
-                width: 350px;
-                text-align: center;
-            }
-    
-            h2 {
-                margin-bottom: 20px;
-               
-            }
-    
-            label {
-                display: block;
-                text-align: left;
-                margin-bottom: 5px;
-                font-weight: bold;
-            }
-    
-            input[type="text"],
-            input[type="password"],
-            input[type="email"] {
-                width: 100%;
-                padding: 10px;
-                margin-bottom: 15px;
-                border: 1px solid #ddd;
-                border-radius: 8px;
-                font-size: 14px;
-             
-            }
-    
-          
-            input[type="submit"] {
-                background: #4facfe;
-                color: white;
-                border: none;
-                padding: 12px;
-                border-radius: 8px;
-                width: 100%;
-                font-size: 16px;
-                cursor: pointer;
-        
-            }
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.register{
+    background-color: #09c;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}     
+.forms{
+    background-color: white;
+     height: 350px;
+     width: 350px;
+     border-radius: 8px;
+     padding: 30px 40px;
+}
+.forms h2{
+     text-align: center;
+    font-size: 25px;
+    color: teal; 
+    }
+form label{
+    display: block;
+    margin: 5px;
+    padding-bottom:3px ;
+    font-size: 19px;
+    font-weight: bold;
+    color: teal;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"]
+{
+    display: block;
+    width: 85%;
+    padding: 10px;
+    border: 1px gray solid;
+    border-radius: 8px;
+}
+
+input[type="submit"]{
+    display: block;
+    background-color: #4facfe;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 20px auto;
+    cursor: pointer;
+}
